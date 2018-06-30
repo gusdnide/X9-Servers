@@ -1,0 +1,62 @@
+	/* Style the video: 100% width and height to cover the entire window */
+#myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%; 
+    min-height: 100%;
+}
+
+
+
+/* Style the button used to pause/play the video */
+#myBtn {
+    width: 200px;
+    font-size: 18px;
+    padding: 10px;
+    border: none;
+    background: #000;
+    color: #fff;
+    cursor: pointer;
+}
+
+#myBtn:hover {
+    background: #ddd;
+    color: black;
+}
+
+
+/* Add some content at the bottom of the video/page */
+.content {
+    position: fixed;
+    top: 0;
+    background: rgba(0, 0, 0, 1);
+    color: #f1f1f1;
+    width: 100%;
+    padding: 20px;
+}
+
+.menu{
+    background: rgba(0, 0, 0, 0.9);
+    font-size: 15px;
+    padding-left: 5px;
+    border-bottom: 2px solid blue;
+}
+.conteudo{
+    background: rgb(0, 0, 0);
+    border: 2px solid black;
+    border-radius: 6px;
+
+}
+.conteudo a{
+    color: white;    
+    text-decoration: none; 
+}
+.conteudo a:hover{
+    color: red;    
+    text-decoration: none; 
+}
+.conteudo a:visited{
+    color: white;    
+    text-decoration: none; 
+}
